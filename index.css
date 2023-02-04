@@ -1,0 +1,179 @@
+html {
+  background-color: #170f1e;
+  font-family: 'JetBrains Mono', monospace;
+  scroll-behavior: smooth;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+h1 {
+  color: white
+}
+
+h2 {
+  color: #64e3ff
+}
+
+h3 {
+  color: #B4FF39;
+  padding-left: 1rem;
+}
+
+p {
+  color: white;
+  padding-left: 3rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 15px;
+  width: 100%;
+  height: auto;
+  backdrop-filter: saturate(180%) blur(10px);
+  background-color: rgba(23, 15, 30, 0.8);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: white
+}
+
+.link {
+  color: #FFE27D;
+}
+
+.title {
+  padding: 0;
+}
+
+.button {
+  font-family: 'JetBrains Mono', monospace;
+  width: auto;
+  height: auto;
+  max-height: 40px;
+  background: linear-gradient(270deg, #9092FF 0%, #64E3FF 49.48%, #FFE27D 100%);
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.25);
+  border-radius: 12px 0px;
+  color: black;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.horizontal-center {
+  display: flex;
+  justify-content: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  width: 576px;
+  height: 302px;
+}
+
+.item {
+  margin: 0 10px;
+}
+
+.btn_container {
+  padding-left: 3rem;
+}
+
+/* Workshop */
+.btn_yellow {
+  font-family: 'JetBrains Mono', monospace;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  margin-right: 0.5rem;
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(255, 215, 77) 180%);
+  border: 1px solid rgb(255, 215, 77);
+  box-shadow: rgb(255 215 77) 0px 0px 12px;
+  border-radius: 12px;
+  color: white;
+}
+
+.btn_yellow:hover {
+  background: linear-gradient(rgba(255, 215, 77, 0.337) 0%, rgb(255, 215, 77) 180%);
+}
+
+.btn_purple {
+  font-family: 'JetBrains Mono', monospace;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  margin-right: 0.5rem;
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(124, 127, 255) 180%);
+  border: 1px solid rgb(124, 127, 255);
+  box-shadow: rgb(124 127 255) 0px 0px 12px;
+  border-radius: 12px;
+  color: white;
+}
+
+.btn_purple:hover {
+  background: linear-gradient(rgba(124, 127, 255, 0.337) 0%, rgb(124, 127, 255) 180%);
+}
+
+.btn_green {
+  font-family: 'JetBrains Mono', monospace;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  margin-right: 0.5rem;
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(180, 255, 57) 180%);
+  border: 1px solid rgb(180, 255, 57);
+  box-shadow: rgb(180, 255, 57) 0px 0px 12px;
+  border-radius: 12px;
+  color: white;
+}
+
+.btn_green:hover {
+  background: linear-gradient(rgba(180, 255, 57, 0.337) 0%, rgb(180, 255, 57) 180%);
+}
+
+.btn_blue {
+  font-family: 'JetBrains Mono', monospace;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  margin-right: 0.5rem;
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(100, 227, 255) 180%);
+  border: 1px solid rgb(100, 227, 255);
+  box-shadow: rgb(100, 227, 255) 0px 0px 12px;
+  border-radius: 12px;
+  color: white;
+}
+
+.btn_blue:hover {
+  background: linear-gradient(rgba(100, 227, 255, 0.337) 0%, rgb(100, 227, 255) 180%);
+}
